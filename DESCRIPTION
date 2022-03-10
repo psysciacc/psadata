@@ -1,0 +1,28 @@
+Package: psadata
+Title: Data from the Psychological Science Accelerator
+Version: 0.0.0.9000
+Authors@R: 
+    person(
+        given = "Lisa", 
+        family = "DeBruine", 
+        role = c("aut", "cre"), 
+        email = "debruine@gmail.com", 
+        comment = c(ORCID = "0000-0002-7523-5539")
+    )
+Description: Access datasets from Psychological Science Accelerator projects by study.
+License: CC BY 4.0
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Depends: 
+    R (>= 2.10)
+LazyData: true
+Imports: 
+    magrittr,
+    faux,
+    rstudioapi,
+    utils

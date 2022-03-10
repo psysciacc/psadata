@@ -1,0 +1,43 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# psadata
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+The goal of psadata is to make datasets from Psychological Science Accelerator projects easily accessible.
+
+This package is currently under development and is just a proof of concept, with only 2 data files from one project. Check back soon for updates.
+
+## Installation
+
+You can install the development version of psadata from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("psysciacc/psadata")
+```
+
+## Example
+
+Load all of the datasets associated with a project. 
+
+```{r example}
+library(psadata)
+
+psa001()
+```
+
